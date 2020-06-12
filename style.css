@@ -1,0 +1,38 @@
+*{
+	font-family: Arial;
+}
+
+body {
+	background-image: url('back 2.png');
+}
+
+.container {
+	width: 1100px;
+	height: 700px;
+	background: url('back.jpg') no-repeat center center fixed;
+	margin: 100px auto 0px auto; 
+	text-align: center;
+	border-radius: 20px;
+	cursor: url('Gun.png'), auto;
+}
+
+.bar{
+	margin: 0px 0px 0px 398px;
+	width: 1080px;
+	height: 20px;
+	text-align: center;
+	padding: 15px;
+	border-radius: 20px;
+	background: url('metal.jpg') center center fixed;
+}
+
+.bar input {
+	text-transform: uppercase;
+	margin: 0px 10px 0px 10px;
+}
+
+.wrapper {
+    border-radius: 20px;
+}
+
+
