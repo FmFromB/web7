@@ -1,23 +1,24 @@
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>DOOM</title>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mootools/1.6.0/mootools-core.js"></script>
 		<script type="text/javascript" src="Game.js"></script>
 		<link rel="stylesheet" type="text/css" href="Style.css">
 	</head>
-	<body onload="init(0);">
+	<body onload="init();">
 		<div id="box" class="container">
 			<canvas class="wrapper" id="canvas" width="1100" height="700" onclick="goInput(event);"></canvas>
 
 		</div>
-		<img id="img" style="display:none"  src="Demon 1.png">
+		<img id="img" style="display:none" src="Demon 1.png">
 		<div class="bar">
 			<form>
-				<input type = "button" value = "Start" onclick="move()">
+				<input type = "button" value = "Start" onclick="move(), draw(0)">
 				<input type = "button" value = "Restart" onclick="">
 				<input type = "button" value = "Leaderboard" onclick="">
-				<input type = "button" value = "Rules" onclick="">
-				<input type = "button" value = "Music" onclick="soundClick()">
+				<input type = "button" value = "Rules" onclick="rules()">
+				<input type = "button" value = "Music" onclick="soundClick(1)">
 			</form>
 		</div>
 	</body>
